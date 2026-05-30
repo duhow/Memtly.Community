@@ -1,4 +1,9 @@
 [submodule "Memtly.Core"]
-	path = Memtly.Core
-	url = ../memtly.core.git
-	branch = master
+  path = Memtly.Core
+  url = https://github.com/duhow/Memtly.Core
+  branch = master
+
+[submodule "Memtly.Localization"]
+	path = Memtly.Localization
+	url = https://github.com/duhow/Memtly.Localization
+  branch = master
