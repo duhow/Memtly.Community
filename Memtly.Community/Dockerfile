@@ -15,6 +15,7 @@ RUN apt-get update && \
 WORKDIR /src
 COPY ["Memtly.Community/Memtly.Community.csproj", "Memtly.Community/"]
 COPY ["Memtly.Core/Memtly.Core/Memtly.Core.csproj", "Memtly.Core/Memtly.Core/"]
+COPY ["Memtly.Localization/Memtly.Localization.csproj", "Memtly.Localization/"]
 COPY . .
 
 RUN dotnet restore -a $TARGETARCH "./Memtly.Community/Memtly.Community.csproj"
